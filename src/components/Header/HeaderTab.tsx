@@ -61,7 +61,11 @@ const HeaderTab = () => {
         <hr />
         <div className="repomsive-mb-list">
           <div>
-            <NavLink to="/" className="mbb nav-link" aria-current="page">
+            <NavLink
+              to="/shopwoodmark"
+              className="mbb nav-link"
+              aria-current="page"
+            >
               Home
             </NavLink>
           </div>
@@ -92,7 +96,7 @@ const HeaderTab = () => {
 
       <div className="container">
         <Box className="logo">
-          <NavLink to="/">
+          <NavLink to="/shopwoodmark">
             <img
               src="https://woodmart.xtemos.com/kids/wp-content/uploads/sites/13/2023/05/w-bcs-logo-black-l-1.svg"
               alt=""
@@ -104,7 +108,11 @@ const HeaderTab = () => {
             <div className="nav-underline position-absolute start-50 translate-middle">
               <div className="d-flex nav-underline">
                 <div className="nav-item p-2 flex-fill ">
-                  <NavLink to="/" className="nav-link" aria-current="page">
+                  <NavLink
+                    to="/shopwoodmark"
+                    className="nav-link"
+                    aria-current="page"
+                  >
                     Home
                   </NavLink>
                 </div>
@@ -153,7 +161,9 @@ const HeaderTab = () => {
                     </li>
                     <li className={styles.headernavbaruseritem}>
                       <p
-                        onClick={() => dispatch(handleLogout(), navigate("/"))}
+                        onClick={() =>
+                          dispatch(handleLogout(), navigate("/shopwoodmark"))
+                        }
                       >
                         Log out
                       </p>
@@ -199,7 +209,7 @@ const HeaderTab = () => {
 
             <div className="nav-item p-2 flex-fill">
               <NavLink to="/cart" className="nav-link" style={{ fontSize: 25 }}>
-                <Tooltip title="Shopping cart">
+                <Tooltip title="Shopping cart" className="mb-1">
                   <IconButton>
                     <FaShoppingBag />
                     <span className="carousel"></span>

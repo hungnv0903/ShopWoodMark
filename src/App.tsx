@@ -51,7 +51,7 @@ function App() {
         <HeaderTab />
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/shopwoodmark" element={<Home />} />
         <Route path="/pucharse" element={<Pucharse />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/cart" element={<Cart />} />

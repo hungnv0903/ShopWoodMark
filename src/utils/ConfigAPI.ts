@@ -1,6 +1,6 @@
 import axios from "axios";
 const request = axios.create({
-  baseURL: "http://localhost:3000/",
+  baseURL: "https://575g43-8080.csb.app/",
 });
 
 request.interceptors.request.use(

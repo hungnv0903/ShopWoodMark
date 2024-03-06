@@ -32,8 +32,8 @@ import { RootState } from "../../features/Redux/Store/store";
 import { handlePucharseByUser } from "../../features/Redux/Reducers/pucharseSlice";
 export default function index() {
   const [formState, setFormState] = useState({
-    username: "",
-    password: "",
+    username: "hungnguyen",
+    password: "hung123",
     errorUsername: "",
     errorPassword: "",
   });
