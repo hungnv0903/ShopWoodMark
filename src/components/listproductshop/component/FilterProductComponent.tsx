@@ -4,8 +4,6 @@ import {
   Chip,
   FormControlLabel,
   FormGroup,
-  Grid,
-  Paper,
   Slider,
   Typography,
 } from "@mui/material";

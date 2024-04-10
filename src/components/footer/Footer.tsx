@@ -2,12 +2,11 @@ import { FaPinterest } from "react-icons/fa";
 import { FaLinkedinIn, FaTelegram } from "react-icons/fa6";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
 import EmailIcon from "@mui/icons-material/Email";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import XIcon from "@mui/icons-material/X";
 import { NavLink } from "react-router-dom";
-import { Box, styled } from "@mui/material";
+import { Box } from "@mui/material";
 import "../Footer/Footer.module.css";
 import styles from "../Footer/Footer.module.css";
 

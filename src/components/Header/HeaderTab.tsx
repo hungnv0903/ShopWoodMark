@@ -1,4 +1,4 @@
-import { NavLink, Navigate, useNavigate } from "react-router-dom";
+import { NavLink,useNavigate } from "react-router-dom";
 import { IoIosHeartEmpty } from "react-icons/io";
 import { FaBars, FaRegUser, FaSearch, FaShoppingBag } from "react-icons/fa";
 import Tooltip from "@mui/material/Tooltip";

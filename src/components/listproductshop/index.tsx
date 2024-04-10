@@ -1,8 +1,5 @@
-import { Stack, Button, Drawer, Grid, Pagination, Box } from "@mui/material";
-import { useEffect, useMemo, useState } from "react";
-
-import { useSelector } from "react-redux";
-import { RootState } from "../../features/Redux/Store/store";
+import {Button, Drawer, Grid, Box } from "@mui/material";
+import { useEffect, useState } from "react";
 import { IProduct } from "../../types/Models";
 
 import * as SortProduct from "../../features/sortProduct/SortProduct";

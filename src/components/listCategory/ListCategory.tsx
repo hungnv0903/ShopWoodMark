@@ -1,11 +1,8 @@
-import { styled } from "@mui/material/styles";
-import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import { ICategory, IProduct } from "../../types/Models";
 import Avatar from "@mui/material/Avatar";
 import { Typography } from "@mui/material";
-import { NavLink, useNavigate, useParams } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 import Slider from "react-slick";
 interface IListCategory {
   categories: ICategory[];
@@ -22,7 +19,7 @@ const ListCategory = ({ categories, listProduct }: IListCategory) => {
     );
     navigate(`/category/${value}`, { state: listProductCategory });
   };
-  var settings = {
+  const settings = {
     dots: true,
     infinite: false,
     speed: 500,
