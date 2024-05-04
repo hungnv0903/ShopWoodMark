@@ -1,6 +1,6 @@
 import axios from "axios";
 const request = axios.create({
-  baseURL: "https://w5ql5y-8080.csb.app/",
+  baseURL: "https://l9xywf-8080.csb.app/",
 });
 
 request.interceptors.request.use(
